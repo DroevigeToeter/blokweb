@@ -1,0 +1,120 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+/*nav {
+	display: flex;
+}
+
+.nav_tekst {
+	display: flex;
+	flex-direction: row;
+}
+  .nav_tekst :nth-child(1) { order: 2; }
+  .nav_tekst :nth-child(2) { order: 3; }
+  .nav_tekst :nth-child(3) { order: 4; }
+  .nav_tekst :nth-child(4) { order: 1; } 
+
+
+/****************/
+/* Navigation */ 🧭📍🗺
+/****************/
+
+
+nav { 
+display: flex;
+flex-wrap: wrap;
+}
+
+nav ul { 
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	padding: 0.125em;
+}
+
+/* nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+} */
+
+/* nav :nth-child(1) { order: 2; }
+nav :nth-child(2) { order: 3; }
+nav :nth-child(3) { order: 4; }
+nav :nth-child(4) { order: 1; }  */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_tekst {
+	display: flex;
+	justify-content: center;
+}
+
+/***************/
+/* Hero Image */
+
+.hero img {
+	max-width: 100%;
+}
+
+/***********/
+/* sexies */
+
+section h2 {
+	display: flex;
+	justify-content: center;
+}
+
+section h3 {
+	display: flex;
+	justify-content: center;
+}
+
+/*******/
+/* sale items */
+/*******/
+
+.saleitems img {
+max-width: 20em;
+}
+
+.saleitems p {
+	padding: none;
+}
+.saleitems {
+max-width: 20em;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+}
+
+.pricing {
+	display: grid;
+	
+}
+
+.pricing p {
+	border: 10em;
+}

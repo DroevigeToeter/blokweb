@@ -60,6 +60,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+Ontzettend veel errors en warnings (300+). De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen.   
+
+Deze website is gemaakt met shopify
+
 </details>
 
 
@@ -70,7 +74,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -90,7 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb een beginnetje van de website opgezet. Ik moest even inkomen. Ik had wel eerder met flexbox gewerkt maar Grid niet. In theorie snap ik het wel maar in de praktijk vind ik het nog lastig om toe te passen.
 
 
   ### Agenda voor meeting

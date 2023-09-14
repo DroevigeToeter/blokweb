@@ -96,6 +96,10 @@ Deze website is gemaakt met shopify
   ### Stand van zaken
   Ik heb een beginnetje van de website opgezet. Ik moest even inkomen. Ik had wel eerder met flexbox gewerkt maar Grid niet. In theorie snap ik het wel maar in de praktijk vind ik het nog lastig om toe te passen.
 
+<img src="readme-images/screenshotprogress" width="375px" alt="progres tot nu toe">
+<img src="readme-images/screenshotprogress2" width="375px" alt="progres tot nu toe">>
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen

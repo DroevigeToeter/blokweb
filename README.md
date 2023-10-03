@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw (rood als het me lukt)
 
   #### Je focus:
-  Surface plane
+  Responsive
  
 </details>
 
@@ -102,21 +102,14 @@ Deze website is gemaakt met shopify
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik moet vooral letten op hoe ik de items aanspreek. 
+  - Geen Divs/classes/Ids
+  - Gebruik ook eens grid ipv flexbox
   - ...
 
 </details>
@@ -131,26 +124,17 @@ Deze website is gemaakt met shopify
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het lukte mij niet om bolletjes te plaatsen bovenop een foto. Deze bolletjes hebben een transparante overlay die bewegen. Het lukt me maar niet om deze responsive te krijgen. Ook wil ik weten of nu mijn website semantisch correct is en of ik de juiste items aanspreek in mijn css.
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik spreek nu mijn items juist aan
+
 
 </details>
 
@@ -178,7 +162,7 @@ Deze website is gemaakt met shopify
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik dacht grid goed te begrijpen maar ik loop soms toch tegen dingen aan: Ik probeer eigenlijk vanalles 'as I go' en kijk ook tutorials, maar het klikt nog niet echt.
 
 
   ### Agenda voor meeting
@@ -211,17 +195,20 @@ Deze website is gemaakt met shopify
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/overlay.png" width="375px" alt="Overlay van bolletjes bovenop een plaatje">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
+<img src="readme-images/screenshotwebsite.png" width="375px" alt="Mijn website lijkt op deze screenshot al best veel op die van Wiezewasjes">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Uiteraard gewone html en gewone css opzetten ging best goed. Ik vond het gebruik van var super handig, omdat je op die manier css heel snel bij verschillende onderdelen kunt toepassen. Ook heb ik geleerd en beseft hoe belangrijk is dat we rekening houden met slechtzienden (en slechthorenden en minderbeperkten)
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik heb niet te weinig tijd gehad, maar vanwege een vervelende (opstapeling) van gebeurtenissen had ik eigenlijk geen zin (of eigenlijk: de energie niet) meer om te leren. Ik wil heel graag goed worden hierin en hoop een mooie comeback te maken tijdens de herkansing. Wat is super lastig vond en vind is leren hoe grid werkt: soms denk ik het een beetje te snappen en soms niet. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -239,7 +226,7 @@ Deze website is gemaakt met shopify
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. section 2: https://stackoverflow.com/questions/54724693/horizontal-scroll-with-css-grid
   2. bron 2
   3. ...
 

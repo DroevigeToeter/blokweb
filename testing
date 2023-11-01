@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TITLE -->
+    <title>Wiezewasjes | Unieke sieraden te koop in Den Haag en online</title>
+
+    <!-- LINKS -->
+    <link href="styles/finalstyle.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<header>
+
+        <p>Gratis verzending in NL boven €100,- | BE and DE over €150,- | Rest of the world over €250,- | We ship
+            worldwide! 🌍</p>
+
+        <nav>
+            <ul>
+                <li><a href="#"><img src="images/menu_icon.png" alt="Het hamburgermenu van wiezewasjes"></a></li>
+
+                <div>
+                    <a href="/shop">shop</a>
+                    <a href="/shop">sterrenbeelden</a>
+                    <a href="/shop">edelstenen</a>
+                </div>
+
+                <li><a href="wiezewasjes.html"><img src="images/wiezewasjeslogo.png" class="logo" alt="Ga naar de homepage van wiezewasjes"></a></li>
+
+                <div>
+                    <a href="#"><img src="images/search_icon.png" alt="Zoekmachine van wiezewasjes"></a>
+                    <a href="#"><img src="images/profile_icon.png" alt="Account, je kunt hier inloggen"></a></li>
+                    <a href="#"><img src="images/likes_icon.png" alt="Likes, Je kunt hier de gefavoriete producten terugvinden"></a>
+                    <a href="#"><img src="images/basket_icon.png" alt="Jouw winkelmandje"></a>
+                </div>
+
+            </ul>
+        </nav>
+
+
+
+    </header>

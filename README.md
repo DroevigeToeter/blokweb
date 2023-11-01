@@ -39,12 +39,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.wiezewasjes.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage: https://www.wiezewasjes.nl/
   <img src="readme-images/pag1sc1.jpeg" width="375px" alt="De homepage van sieradenwinkel Wiezewasjes">
   <img src="readme-images/pag1sc2.jpeg" width="375px" alt="De homepage van sieradenwinkel Wiezewasjes met bewegende elementen bij het scrollen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Sieraden voor sterrenbeeld Kreeft: https://www.wiezewasjes.nl/collections/sterrenbeeld-kreeft
   <img src="readme-images/pag2sc1.jpeg" width="375px" alt="Omschrijving van het sterrenbeeld Kreeft">
   <img src="readme-images/pag2sc2.jpeg" width="375px" alt="Alle sieraden die passen bij sterrenbeeld Kreeft">
  
@@ -60,9 +58,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-Ontzettend veel errors en warnings (300+). De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen.   
-
-Deze website is gemaakt met shopify
+-Ontzettend veel errors en warnings (300+).
+-Code werkt ondanks de errors en warnings wel.
+-De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
+-Deze website is gemaakt met shopify. 
+-De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
+-Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
+-Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
 
 </details>
 
@@ -74,13 +76,15 @@ Deze website is gemaakt met shopify
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
+  Dit was de gehele pagina. De pagina bestaat heeft een navigatie met een submenu dat uitklapt bij de hover. 
+  
   <img src="readme-images/breakdownschets.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  Ook is er een hamburger menu op een klein formaat (zoals telefoon). Andere onderdelen verdwijnen dan.
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  Er zijn meerdere kleine animaties op de website.
 
 </details>
 
@@ -102,7 +106,7 @@ Deze website is gemaakt met shopify
 
 
   ### Agenda voor meeting
- 
+ Er is geen Agenda gemaakt voor de Meeting. Wel heb ik met Marten gesproken over wat ik nog moest aanpassen.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -110,7 +114,8 @@ Deze website is gemaakt met shopify
   - Ik moet vooral letten op hoe ik de items aanspreek. 
   - Geen Divs/classes/Ids
   - Gebruik ook eens grid ipv flexbox
-  - ...
+  
+  Ik had een hoop werk te doen, want in principe had ik de opdracht een beetje verkeerd begrijpen. De noodzaak van het gebruiken van bestaande veelvoorkomende HTML5-semantische elementen was nog niet doorgedrongen. Ik zal dit aanpassen in de komende weken.
 
 </details>
 
@@ -126,14 +131,16 @@ Deze website is gemaakt met shopify
   ### Stand van zaken
   Het lukte mij niet om bolletjes te plaatsen bovenop een foto. Deze bolletjes hebben een transparante overlay die bewegen. Het lukt me maar niet om deze responsive te krijgen. Ook wil ik weten of nu mijn website semantisch correct is en of ik de juiste items aanspreek in mijn css.
 
+  Het is gelukt om op een semantische manier code te schrijven. 
+
 
   ### Agenda voor meeting
  
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik spreek nu mijn items juist aan. Echter heb ik nog veel te doen; ik loop hierdoor een beetje achter. Verder is het het plan om de website verder responsive te maken en een micro animatie toe te voegen. Dit kan bijvoorbeeld door een hartje te kunnen geven aan een element, wat een microanimatie veroorzaakt op de pagina. 
 
-  - Ik spreek nu mijn items juist aan
 
 
 </details>
@@ -149,6 +156,10 @@ Deze website is gemaakt met shopify
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Ik heb een paar warnings, dat komt omdat ik niet overal een alt heb had staan. 
+  Mijn H1 had ik bijvoorbeeld op display: none; staan, omdat ik een H1 op de pagina moest hebben maar deze niet zichtbaar wilde. 
+  Dat bleek niet de juiste manier van werken te zijn dus ik heb dit aangepast naar een .sr-only class.  
+
 
 </details>
 

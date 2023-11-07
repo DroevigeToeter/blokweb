@@ -58,13 +58,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
--Ontzettend veel errors en warnings (300+).
--Code werkt ondanks de errors en warnings wel.
--De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
--Deze website is gemaakt met shopify. 
--De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
--Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
--Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
+- Ontzettend veel errors en warnings (300+).
+- Code werkt ondanks de errors en warnings wel.
+- De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
+- Deze website is gemaakt met shopify. 
+- De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
+- Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
+- Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
 
 </details>
 

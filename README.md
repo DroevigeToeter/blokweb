@@ -183,7 +183,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  Geen agenda toendertijd gemaakt.
+  Geen agenda toendertijd gemaakt. Ik wist wel wat ik wilde vragen, maar er is onderling niets besproken.
 
 
   ### Verslag van meeting
@@ -206,9 +206,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/overlay.png" width="375px" alt="Overlay van bolletjes bovenop een plaatje">
-<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
-<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
 <img src="readme-images/screenshotwebsite.png" width="375px" alt="Mijn website lijkt op deze screenshot al best veel op die van Wiezewasjes">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
 
 
   ### Dit ging goed/Heb ik geleerd: 

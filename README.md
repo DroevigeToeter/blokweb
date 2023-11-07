@@ -207,10 +207,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/screenshotwebsite.png" width="375px" alt="Mijn website lijkt op deze screenshot al best veel op die van Wiezewasjes">
   <img src="readme-images/overlay.png" width="375px" alt="Overlay van bolletjes bovenop een plaatje">
 <img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
 <img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
-<img src="readme-images/screenshotwebsite.png" width="375px" alt="Mijn website lijkt op deze screenshot al best veel op die van Wiezewasjes">
 
 
   ### Dit ging goed/Heb ik geleerd: 

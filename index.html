@@ -11,40 +11,258 @@
     <title>Wiezewasjes | Unieke sieraden te koop in Den Haag en online</title>
 
     <!-- LINKS -->
-    <link href="styles/style2.css" rel="stylesheet">
+    <link href="styles/finalstyle.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Montserrat:wght@100&family=Pangolin&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Geologica:wght@700&family=Montserrat:wght@100&family=Pangolin&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+
 </head>
+
+
+
+
+
+
+
 
 <body>
 
+
     <!-- HEADER -->
     <!-- De header met daarin de belangrijkste navigatie-->
+
+
     <header>
+
         <p>Gratis verzending in NL boven €100,- | BE and DE over €150,- | Rest of the world over €250,- | We ship
             worldwide! 🌍</p>
+
         <nav>
+
             <ul>
-                <li><a href="index2.html"><img src="images/wiezewasjeslogo.png" class="logo"></a></li>
-                <li><a href="#"><img src="images/menu_icon.png"></a></li>
-                <li><a href="#"><img src="images/search_icon.png"></a></li>
-                <li><a href="#"><img src="images/basket_icon.png"></a></li>
+
+                <li class="hamburger"><a href="#"><img id="hamburgerIcon" src="images/menu_icon.png"
+                            alt="Het hamburgermenu van wiezewasjes"></a></li>
+
+                <ul class="menu">
+
+                    <li><a class="nav__link" href="#">shop</a></li> 
+                    <li><a class="nav__link" href="sterrenbeelden.html" id="sterrenbeelden-link"
+                            data-submenu-trigger>sterrenbeelden</a></li>
+                    <li><a class="nav__link" href="#">edelstenen</a></li>
+
+                </ul>
+
+                <li class="logo">
+                    <a href="wiezewasjes.html">
+                        <img src="images/wiezewasjeslogo.png" alt="Ga naar de homepage van wiezewasjes">
+                    </a>
+                </li>
+
+                <ul class="nav__icons">
+
+
+                    <li><a href="#"><img src="images/search_icon.png" alt="Zoekmachine van wiezewasjes"></a></li>
+                    <li><a href="#"><img src="images/profile_icon.png" alt="Account, je kunt hier inloggen"></a></li>
+                    <li>
+                        <div class="aantal__likes">
+                            <a href="#"><img src="images/likes_icon.png"
+                                    alt="Likes, Je kunt hier de gefavoriete producten terugvinden"></a>
+                            <p> (<span id="aantalLikes">0</span>)</p>
+                        </div>
+                    </li>
+
+                    <li><a href="#"><img src="images/basket_icon.png" alt="Jouw winkelmandje"></a></li>
+                </ul>
+
             </ul>
         </nav>
+
+
+
+
+
+
+
+
+        <!--submenu (onder)-->
+
+
+
+        <nav>
+            <ul>
+                <li> <a href="#" alt="Sieraden zoeken op basis van je sterrenbeeld">Sterrenbeelden</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld steenbok">Steenbok</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld waterman">Waterman</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Vissen">Vissen</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Ram">Ram</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Stoer">Stier</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">Tweelingen</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Ram">Kreeft</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Stoer">Leeuw</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">Maagd</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Ram">Weegschaal</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Stoer">Schorpioen</a> </li>
+                <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">Boogschutter</a> </li>
+            </ul>
+
+            <section>
+                <ul>
+                    <li> <a href="#" alt="Sieraden zoeken op basis van je geboortedatum">Verjaardag</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor 22 december t/m 20 januari">22 DEC T/M 20 JAN</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor 21 januari t/m 19 februari">21 JAN T/M 19 FEB</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor 20 februari t/m 20 maart">20 FEB T/M 20 MRT </a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor 21 maart t/m 20 april">21 MRT T/M 20 APR</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor 21 april t/m 20 mei">21 APR T/M 20 MEI</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">21 MEI T/M 21 JUN</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Ram">22 JUN T/M 22 JUL</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Stoer">23 JUL T/M 23 AUG</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">24 AUG T/M 22 SEPT</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Ram">23 SEPT T/M 22 OKT</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Stoer">23 OKT T/M 21 NOV</a> </li>
+                    <li> <a href="#" alt="Naar sieraden voor sterrebeeld Tweelingen">22 NOV T/M 21 DEC</a> </li>
+                </ul>
+            </section>
+
+            <section>
+                <img src="images/submenu_sparkles.webp">
+                <a href="#" alt="Naar Edelstenen voor jouw Sterrenbeeld">Sterrenbeelden</a>
+                <a>Lees hier welke edelsteen er bij jou past!</a>
+            </section>
+
+            <section>
+                <img src="images/submenu_edelsteen.webp">
+                <a href="#" alt="Naar alle Edelstenen">Edelstenen</a>
+                <a>Informatie over Edelstenen die bij jou passen</a>
+            </section>
+
+
+
+        </nav>
+
+        <!--hamburgermenu-->
+
+        <nav id="hamburgerMenu">
+
+            <button id="closeButton" alt="klik hier om het hamburgermenu weg te klikken"><img src="images/kruisje.png"></button>
+
+            <ul>
+                <li><div class="label_kruisje"><div class="label">Shop </div>              <div class="kruisje"><div class="lijn_1"></div><div class="lijn_2"></div></div></div> 
+                    <ul>
+                        <li>925 STERLING ZILVER</li>
+                        <li>14 KARAAT GOUD</li>
+                        <li>OVERIG</li>
+                        <li>CADEAUTJES</li>
+                    </ul>
+                </li>
+            
+
+                <li><div class="label_kruisje"><div class="label">Sterrenbeelden </div>              <div class="kruisje"><div class="lijn_1"></div><div class="lijn_2"></div></div></div> 
+                    <ul>
+                        <li>Sterrenbeelden</li>
+                        <li>Verjaardag</li>
+                    </ul>
+                </li>
+
+                <li><div class="label_kruisje"><div class="label">Edelstenen </div>              <div class="kruisje"><div class="lijn_1"></div><div class="lijn_2"></div></div></div> 
+                    <ul>
+                        <li>EDELSTENEN (A t/m G)</li>
+                        <li>EDELSTENEN (H t/m P)</li>
+                        <li>EDELSTENEN (R t/m Z)</li>
+                        <li>KLEUR</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+
+                <li>Account</li>
+                <li>Verlanglijst</li>
+                <div>
+                    <li>EN</li> / <li>NL</li>
+                </div>
+
+            </ul>
+
+            <ul>
+                <li><a href="#" alt="link naar wiezewasjes's facebook"><img src=images/ham_fb.png></a></li>
+                <li><a href="#" alt="link naar wiezewasjes's tiktok"><img src=images/ham_tik.png></a></li>
+                <li><a href="#" alt="link naar wiezewasjes's instagram"><img src=images/ham_insta.png></a></li>
+                <li><a href="#" alt="link naar wiezewasjes's pinterest"><img src=images/ham_pin.png></a></li>
+            </ul>
+
+
+        </nav>
+
+
+        <!-- 
+        <section class="announcement">
+            <p>🍄 GEBRUIK CODE: ROCKTOBER23 VOOR 20% KORTING! 🍄</p>
+            <p>GELDIG OP AL ONZE PRODUCTEN, OOK IN DE WINKEL IN DEN HAAG.</p>
+        </section>
+     -->
+
+
     </header>
+
+
+
+
+
 
     <!-- MAIN -->
     <!-- Het hoofdgedeelte van de website-->
     <main>
 
+
+
         <!-- SECTION HERO -->
         <!-- sections om op te delen, article voor de blogposts-->
+
+
+
+
         <section>
+
+
             <!--Deze H1 zal hidden zijn-->
-            <h1>Welkom op de website van Wiezewasjes, je kunt hier prachtige sieraden en edelstenen online bestellen.
+            <h1 class="sr-only">Welkom op de website van Wiezewasjes, je kunt hier prachtige sieraden en edelstenen
+                online bestellen.
                 Als je een affiniteit hebt met sieraden, edelstenen en spiritualiteit ben je hier op de juiste plek. Je
                 bent nu op de homepage van de Wiezewasjespagina.</h1>
-            <img src="images/Edelstenen.webp" alt="heroimage">
+
+
+            <article>
+                <!-- <img src="images/banner_rocktober.webp" alt="de promotieposter voor de speciale obtober actie"> -->
+                <img src="images/banner_edelstenen.webp" alt="foto van edelstenen in de vorm van manen">
+                <img src="images/banner_ring.webp" alt="foto van een hand met een mooie grote ring">
+            </article>
+
+
+
         </section>
+
+
+
+
+
+
+
 
 
         <!-- SECTION SUMMERSALE -->
@@ -52,103 +270,129 @@
             <h2>Nieuw!</h2>
             <h3>Wat is jouw nieuwe lievelings?</h3>
             <!--De doos er om heen Grid (dus links naar rechts) en de listitems positioneren met flex-->
-            <ul>
-                <!--Grid container: main > section:nth-of-type(2) ul WANT het is de tweede section -->
-                <li>
-                    <!--Grid items: -->
-                    <p>Korting</p>
-                    <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
-                    <a href="#">Naam</a>
-                    <p>Nieuwe prijs <span>Oude prijs</span></p>
-                </li>
-                <li>
-                    <p>Korting</p>
-                    <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
-                    <a href="#">Naam</a>
-                    <p>Nieuwe prijs <span>Oude prijs</span></p>
-                </li>
-                <li>
-                    <p>Korting</p>
-                    <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
-                    <a href="#">Naam</a>
-                    <p>Nieuwe prijs <span>Oude prijs</span></p>
-                </li>
-                <li>
-                    <p>Korting</p>
-                    <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
-                    <a href="#">Naam</a>
-                    <p>Nieuwe prijs <span>Oude prijs</span></p>
-                </li>
-            </ul>
-            <a>Shop hier <span>alle</span> sale producten</a>
+            <section>
+                <ul>
+                    <!--Grid container: main > section:nth-of-type(2) ul WANT het is de tweede section -->
+                    <li>
+                        <!--Grid items: -->
+                        <p>Korting</p> <img class="like-button" src="images/hartje_leeg.png"
+                            alt="like dit item voor later">
+                        <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
+                        <a href="#">Naam</a>
+                        <p>Nieuwe prijs <span>Oude prijs</span></p>
+                    </li>
+                    <li>
+                        <p>Korting</p> <img class="like-button" src="images/hartje_leeg.png"
+                            alt="like dit item voor later">
+                        <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
+                        <a href="#">Naam</a>
+                        <p>Nieuwe prijs <span>Oude prijs</span></p>
+                    </li>
+                    <li>
+                        <p>Korting</p> <img class="like-button" src="images/hartje_leeg.png"
+                            alt="like dit item voor later">
+                        <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
+                        <a href="#">Naam</a>
+                        <p>Nieuwe prijs <span>Oude prijs</span></p>
+                    </li>
+                    <li>
+                        <p>Korting</p> <img class="like-button" src="images/hartje_leeg.png"
+                            alt="like dit item voor later">
+                        <img src="images/sieraad.webp" alt="foto van een mooi sieraad">
+                        <a href="#">Naam</a>
+                        <p>Nieuwe prijs <span>Oude prijs</span></p>
+                    </li>
+                </ul>
+            </section>
+
+            <a alt="button naar alle sale producten">Shop hier <span>alle</span> sale producten</a>
         </section>
 
         <!-- SECTION BLOG POSTS -->
         <section>
             <h2>Blog posts</h2>
             <!--Losse artikelen-->
+
             <article>
-                <img src="images/blogfoto.png" alt="foto van een warm gekleurde planeet">
+                <img src="images/astro_update_nov.webp" alt="foto van een donkere paarsgekleurde hemel">
+                <h3>Astro Update Oktober 2023</h3>
+                <p>Er gebeurt weer veel boven ons. Wat je deze maand kun merken van de verschillende energieën, wordt in
+                    deze blog onthult door astroloog Josie Boog e...</p>
+                <a href="#" alt="link naar het blog over de astroupdate van Oktober">Lees meer <span class="sr-only">Je
+                        kunt via deze link meer lezen over de Astroupdate van Oktober.</span></a>
+            </article>
+            <article>
+                <img src="images/blog_foto_cadeau.webp" alt="foto van een warm gekleurde planeet">
+                <h3>ROCKTOBER 2023</h3>
+                <p>It's ROCKTOBER time baby! Jeetje wat gaat het jaar snel. De heerlijke zomer is (bijna) voorbij en de
+                    herfst laat zich van haar aller mooiste kanten zien....</p>
+                <a href="#" alt="link naar de Rocktober actie">Lees meer <span class="sr-only">Je kunt via deze link
+                        meer te weten komen over de Oktober actie.</span></a>
+            </article>
+            <article>
+                <img src="images/blog_foto_bomen.webp" alt="foto van mooie bomen">
                 <h3>Astro Update September 2023</h3>
                 <p>Lieve Wiezewasjesfan, Langzaam verwelkomen we de herfst. Een periode om wat meer naar binnente
                     kerenen het huis knus te maken. Maar wat zeggen d...</p>
-                <a href="#">Lees meer</a>
+                <a href="#" alt="link naar blog over de astroupdate van September">Lees meer <span class="sr-only">Je
+                        kunt via deze link meer lezen over de Astroupdate van September 2023.</span></a>
             </article>
             <article>
-                <img src="images/blogfoto.png" alt="foto van een warm gekleurde planeet">
-                <h3>Spring cleaning</h3>
-                <p>Out with the old and in with the new! Tijd voor een schoonmaak! Iedereen maakt wel eens
-                    eenfoutje, wij dus ook. Omdat wij als bedrijf zo transpara...</p>
-                <a href="#">Lees meer</a>
-            </article>
-            <article>
-                <img src="images/blogfoto.png" alt="foto van een warm gekleurde planeet">
-                <h3>Earth Hour</h3>
-                <p>Zaterdag 25 maart is het Earth Hour, waarbij miljoenen huishoudens en bedrijven om half 9
-                    ’savonds hun verlichting een uur lang uitschakelen om en...</p>
-                <a href="#">Lees meer</a>
-            </article>
-            <article>
-                <a href="#">Naar alle blogs</a>
+                <a href="#" alt="Deze link brengt je naar al onze blogposts">Naar alle blogs</a>
             </article>
         </section>
 
         <!-- SECTION ETALAGE -->
         <section>
             <h2>Vind je nieuwe lievelings</h2>
-                <!--relative?-->
-                <article>
+            <!--relative?-->
+            <article>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul> 
+                    <li>
+                        <a href="#" alt="klik om dit sieraad te bekijken"></a>
+                    </li>
+                    <li>
+                        <a href="#" alt="klik om dit sieraad te bekijken"></a>
+                    </li>
+                    <li>
+                        <a href="#" alt="klik om dit sieraad te bekijken"></a>
+                    </li>
+                </ul>
                 <img src="images/oor.webp" alt="foto van oor">
             </article>
             <!-- <article><a>Bekijk producten</a></article> -->
-            <button>Bekijk producten</button>
+            <button href="#" alt="klik hier om de bovenstaande producten te bekijken">Bekijk producten</button>
         </section>
 
 
         <!-- SECTION 5: NOG MEER BLOGS -->
         <section>
             <article>
-                <a><img src="images/sieraad.webp" alt="foto van een mooi sieraad"></a>
+                <a><img src="images/ringmaat.webp" alt="foto van een mooi sieraad"></a>
                 <a>Help!? Welke (ring)maat heb ik nodig?</a>
             </article>
             <article>
-                <a><img src="images/sieraad.webp" alt="foto van een mooi sieraad"></a>
+                <a><img src="images/edelstenensterrenbeeld.webp" alt="foto van een mooi sieraad"></a>
                 <a>Welke edelstenen passen bij jouw sterrenbeeld?</a>
             </article>
             <article>
-                <a><img src="images/sieraad.webp" alt="foto van een mooi sieraad"></a>
+                <a><img src="images/keuzehulp.webp" alt="foto van een mooi sieraad"></a>
                 <a>Kan je niet kiezen? Gebruik onze keuzehulp!</a>
             </article>
         </section>
 
+
         <section>
-            <h2>Schrijf je in voor onze nieuwsbrief!</h2>
+            <img src="images/nieuwsbrief.png">
+            <h2>Schrijf je in voor onze nieuwsbrief!</h2><img src="images/nieuwsbriefarrow.png">
         </section>
+
+
+        <div class="bottom-banner">
+            <img src="images/paddenstoeltje.webp">
+        </div>
+
+
 
         <section>
             <h2>Laatst bekeken door jou</h2>
@@ -161,19 +405,19 @@
     <footer>
 
         <!-- onderdeel 1 -->
-    <article>
-        <h3>Onze winkel</h3>
-                <p>Onze winkel in Den Haag bevindt zich in een gezellig straatje in het centrum van Den Haag, omringd
-                    door andere lokale ondernemers en leuke eetgelegenheden. Kom langs, of proef de sfeer online!</p>
+        <article>
+            <h3>Onze winkel</h3>
+            <p>Onze winkel in Den Haag bevindt zich in een gezellig straatje in het centrum van Den Haag, omringd
+                door andere lokale ondernemers en leuke eetgelegenheden. Kom langs, of proef de sfeer online!</p>
 
-                    <h4>Wiezewasjes Den Haag</h4>
-                <p> Papestraat 9 2513 AV Den Haag</p>
-    </article>
+            <h4>Wiezewasjes Den Haag</h4>
+            <p> Papestraat 9 2513 AV Den Haag</p>
+        </article>
 
 
         <!-- onderdeel 2 -->
-    <nav>
-        <h3>Informatie</h3>
+        <nav>
+            <h3>Informatie</h3>
             <ul>
                 <li><a href="#">Actievoorwaarden</a></li>
                 <li><a href="#">Veelgestelde vragen</a></li>
@@ -187,11 +431,11 @@
                 <li><a href="#">Verkooppunten</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
 
-            <!-- onderdeel 3 -->
-    <nav>
-        <h3>Over ons</h3>
+        <!-- onderdeel 3 -->
+        <nav>
+            <h3>Over ons</h3>
             <ul>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Vacatures</a></li>
@@ -199,22 +443,27 @@
                 <li><a href="#">Brief van Wieske</a></li>
                 <li><a href="#">B2B van Wieske</a></li>
             </ul>
-    </nav>
-            <!-- onderdeel 4 -->
-    
-    <nav>
-        <h3>Volg ons</h3>
+        </nav>
+        <!-- onderdeel 4 -->
+
+        <nav>
+            <h3>Volg ons</h3>
+            <img alt="#" src="images/social-arrow.svg">
             <ul>
                 <li><a href="#" alt="link naar facebook"><img src="images/facebook.png"></a></li>
                 <li><a href="#" alt="link naar tiktok"><img src="images/tiktok.png"></a></li>
                 <li><a href="#" alt="link naar instagram"><img src="images/insta.png"></a></li>
                 <li><a href="#" alt="link naar pinterest"><img src="images/pinterest.png"></a></li>
             </ul>
-    </nav>
-        
-    
+            <img alt="#" src="images/footer-gem.webp">
+        </nav>
+
+
 
     </footer>
 
+
+
+    <script src="java.js"></script>
 
 </body>

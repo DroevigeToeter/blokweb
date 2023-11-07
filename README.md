@@ -58,13 +58,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
--Ontzettend veel errors en warnings (300+).
--Code werkt ondanks de errors en warnings wel.
--De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
--Deze website is gemaakt met shopify. 
--De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
--Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
--Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
+- Ontzettend veel errors en warnings (300+).
+- Code werkt ondanks de errors en warnings wel.
+- De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
+- Deze website is gemaakt met shopify. 
+- De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
+- Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
+- Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
 
 (De tweede toegankelijkheidstest is grotendeels ook gedaan, zie pdf in het zipje)
 </details>
@@ -102,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik heb een beginnetje van de website opgezet. Ik moest even inkomen. Ik had wel eerder met flexbox gewerkt maar Grid niet. In theorie snap ik het wel maar in de praktijk vind ik het nog lastig om toe te passen.
 
 <img src="readme-images/screenshotprogress.png" width="375px" alt="progres tot nu toe">
-<img src="readme-images/screenshotprogress2" width="375px" alt="progres tot nu toe">
+<img src="readme-images/screenshotprogress2.png" width="375px" alt="progres tot nu toe">
 
 
 
@@ -162,7 +162,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - Ik heb een paar warnings, dat komt omdat ik niet overal een alt heb had staan. 
   - Mijn H1 had ik bijvoorbeeld op display: none; staan, omdat ik een H1 op de pagina moest hebben maar deze niet zichtbaar wilde. 
-  Dat bleek niet de juiste manier van werken te zijn dus ik heb dit aangepast naar een .sr-only class.  
+  Dat bleek niet de juiste manier van werken te zijn dus ik heb dit aangepast naar een .sr-only class.
+- Alt tags bij alle images nodig.
 
 
 </details>

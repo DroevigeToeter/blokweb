@@ -58,14 +58,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-- Ontzettend veel errors en warnings (300+).
-- Code werkt ondanks de errors en warnings wel.
-- De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
-- Deze website is gemaakt met shopify. 
-- De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
-- Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
-- Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
+-Ontzettend veel errors en warnings (300+).
+-Code werkt ondanks de errors en warnings wel.
+-De site is helemaal niet semantisch correct opgebouwd. Ik ga mijn best doen om dat wel te doen. 
+-Deze website is gemaakt met shopify. 
+-De website bevat veel decoraties die tijdens het scrollen in beeld komen. 
+-Website is best responsive, je ziet plaatjes veranderen van plaats wanneer je telefoon gebruikt en dat is een fijnere ervaring.
+-Er heerst goed contrast op de pagina, dus het is prettig leesbaar.
 
+(De tweede toegankelijkheidstest is grotendeels ook gedaan, zie pdf in het zipje)
 </details>
 
 
@@ -101,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik heb een beginnetje van de website opgezet. Ik moest even inkomen. Ik had wel eerder met flexbox gewerkt maar Grid niet. In theorie snap ik het wel maar in de praktijk vind ik het nog lastig om toe te passen.
 
 <img src="readme-images/screenshotprogress.png" width="375px" alt="progres tot nu toe">
-<img src="readme-images/screenshotprogress2.png" width="375px" alt="progres tot nu toe">>
+<img src="readme-images/screenshotprogress2" width="375px" alt="progres tot nu toe">
 
 
 
@@ -118,8 +119,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik had een hoop werk te doen, want in principe had ik de opdracht een beetje verkeerd begrijpen. De noodzaak van het gebruiken van bestaande veelvoorkomende HTML5-semantische elementen was nog niet doorgedrongen. Ik zal dit aanpassen in de komende weken.
   
   Het belangrijkste deze week is dat ik elementen juist aanspreek en niet onnodig div's, classes en id's gebruik.
-
-  *Toevoeging voor herkansing: Ik had in deze week vooral een ruige opzet met alle benodigde content om mee te kunnen beginnen. Het was vooral HTML en een beetje CSS.
 
 </details>
 
@@ -146,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier na afloop snel de uitkomsten van de meeting vastleggen
   Ik spreek nu mijn items juist aan. Echter heb ik nog veel te doen; ik loop hierdoor een beetje achter. Verder is het het plan om de website verder responsive te maken en een micro animatie toe te voegen. Dit kan bijvoorbeeld door een hartje te kunnen geven aan een element, wat een microanimatie veroorzaakt op de pagina. 
 
-*Toevoeging voor herkansing: In deze week heb ik vooral alle fouten van vorige week verbeterd. Ik moest eigenlijk overnieuw beginnen. Was balen maar wel nodig!
+
 
 </details>
 
@@ -163,9 +162,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - Ik heb een paar warnings, dat komt omdat ik niet overal een alt heb had staan. 
   - Mijn H1 had ik bijvoorbeeld op display: none; staan, omdat ik een H1 op de pagina moest hebben maar deze niet zichtbaar wilde. 
-  Dat bleek niet de juiste manier van werken te zijn dus ik heb dit aangepast naar een .sr-only class.
-  - 'Lees meer' is echt niet fijn als je een screenreader gebruikt, dit is dus ook uitgebreid
-  - De website heeft van zichzelf al een duidelijk contrast.
+  Dat bleek niet de juiste manier van werken te zijn dus ik heb dit aangepast naar een .sr-only class.  
 
 
 </details>
@@ -187,7 +184,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  Geen agenda toendertijd gemaakt. Ik wist wel wat ik wilde vragen, maar er is onderling niets besproken.
+  Geen agenda toendertijd gemaakt.
 
 
   ### Verslag van meeting
@@ -210,9 +207,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/overlay.png" width="375px" alt="Overlay van bolletjes bovenop een plaatje">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
+<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
 <img src="readme-images/screenshotwebsite.png" width="375px" alt="Mijn website lijkt op deze screenshot al best veel op die van Wiezewasjes">
-<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
-<img src="readme-images/gridgebruiken.png" width="375px" alt="Redelijk responsive grid met mediaqueries">
 
 
   ### Dit ging goed/Heb ik geleerd: 

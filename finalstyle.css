@@ -647,6 +647,8 @@ main section:nth-of-type(2) a:last-child {
     display: inline-block;
     padding: 1em;
     background-color: var(--button-background);
+    color: white;
+    text-decoration: none;
 }
 
 main section:nth-of-type(2) a:last-child:hover {
